@@ -9,6 +9,12 @@ namespace Sturnus.Wpf.DynamicContentControl.Demo.ViewModels
         {
             get { return _mainViewModel ?? (_mainViewModel = new MainViewModel()); }
         }
+
+        private SampleViewModel _sampleViewModel;
+        public SampleViewModel SampleViewModel
+        {
+            get { return _sampleViewModel ?? (_sampleViewModel = new SampleViewModel()); }
+        }
         #endregion
     }
 }

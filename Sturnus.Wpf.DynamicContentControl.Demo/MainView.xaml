@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:sturnus="http://www.github.com/sturnus/dynamiccontentcontrol"
-        Title="DynamicContentControl Demo" Height="375" Width="525"
+        Title="DynamicContentControl Demo" Height="400" Width="525"
         Background="Black" Foreground="White" FontSize="12"
         DataContext="{Binding MainViewModel, Source={StaticResource ViewModelLocator}}">
 
