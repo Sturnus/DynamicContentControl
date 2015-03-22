@@ -4,7 +4,7 @@ A WPF control that dynamically renders its content from a XAML string.
 ##Release
 Nuget package comming soon.
 
-Latest release available [here](https://github.com/Sturnus/DynamicContentControl/releases/tag/v1.0.0).
+Latest release available [here](https://github.com/Sturnus/DynamicContentControl/releases/tag/v1.0.1).
 
 ##Features
 * Dynamically renders XAML content from a string.
