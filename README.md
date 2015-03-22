@@ -1,4 +1,4 @@
-# DynamicContentControl
+# WPF DynamicContentControl
 A WPF control that dynamically renders its content from a XAML string.
 
 Nuget package comming soon.
