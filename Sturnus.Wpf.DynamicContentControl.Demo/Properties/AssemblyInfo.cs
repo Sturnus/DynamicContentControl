@@ -8,9 +8,9 @@ using System.Windows;
 [assembly: AssemblyTitle("Sturnus.Wpf.DynamicContentControl.Demo")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Toshiba")]
+[assembly: AssemblyCompany("Jeroen Spreeuwenberg")]
 [assembly: AssemblyProduct("Sturnus.Wpf.DynamicContentControl.Demo")]
-[assembly: AssemblyCopyright("Copyright © Toshiba 2015")]
+[assembly: AssemblyCopyright("Copyright © 2015 Jeroen Spreeuwenberg")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

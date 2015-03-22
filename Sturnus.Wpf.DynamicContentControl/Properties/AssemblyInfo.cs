@@ -8,7 +8,7 @@ using System.Windows.Markup;
 [assembly: AssemblyTitle("Sturnus.Wpf.DynamicContentControl")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Jeroen Spreeuwenberg")]
 [assembly: AssemblyProduct("Sturnus.Wpf.DynamicContentControl")]
 [assembly: AssemblyCopyright("Copyright © 2015 Jeroen Spreeuwenberg")]
 [assembly: AssemblyTrademark("")]
