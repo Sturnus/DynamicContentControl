@@ -6,9 +6,11 @@ Nuget package comming soon.
 Latest release comming soon.
 
 ##Features
+* Dynamically renders XAML content from a string.
+* Provides bindable Dependency Property to set the control's content.
+* Supports third party libraries and components.
 
 ##Samples
-
 ###Getting started
 **XAML**
 ```xml
@@ -75,7 +77,7 @@ public string HelloWorld
 ```
 
 ###Third party controls
-When using third party controls you must specify their assembly name in the applicable XAML namespace, using the ;assembly=assemblyName attribute. You must do this even if the control has a defined XML namespace. This allows the DynamicContentControl to load the library into its context and render elements depending on it.
+When using third party controls you must specify their assembly name in the applicable XAML namespace, using the ;assembly=assemblyName attribute. You must do this even if the control has a defined XML namespace. This allows the DynamicContentControl to load the library into its context and render elements depending on it. This also applies to CLR namespaces.
 
 The example below uses the WPFAnimatedGIF library. For more information please visit [https://github.com/thomaslevesque/WpfAnimatedGif](https://github.com/thomaslevesque/WpfAnimatedGif)
 
