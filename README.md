@@ -8,6 +8,7 @@ Latest release comming soon.
 ##Features
 * Dynamically renders XAML content from a string.
 * Provides bindable Dependency Property to set the control's content.
+* Rerenders entire control when Dependency Property's context is changed. 
 * Supports third party libraries and components.
 
 ##Samples
