@@ -1,4 +1,9 @@
-﻿using System.Collections.Generic;
+﻿// <copyright file="XamlTextReader.cs">
+// Copyright (c) 2015 All Rights Reserved
+// </copyright>
+// <author>Jeroen Spreeuwenberg</author>
+
+using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Windows.Markup;

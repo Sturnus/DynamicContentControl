@@ -1,3 +1,7 @@
+// <copyright file="XamlNamespace.cs">
+// Copyright (c) 2015 All Rights Reserved
+// </copyright>
+// <author>Jeroen Spreeuwenberg</author>
 
 namespace Sturnus.Wpf.DynamicContentControl
 {

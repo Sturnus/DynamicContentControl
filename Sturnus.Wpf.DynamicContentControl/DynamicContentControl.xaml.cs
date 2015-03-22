@@ -1,4 +1,9 @@
-﻿using System.Collections.Generic;
+﻿// <copyright file="DynamicContentControl.xaml.cs">
+// Copyright (c) 2015 All Rights Reserved
+// </copyright>
+// <author>Jeroen Spreeuwenberg</author>
+
+using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 
