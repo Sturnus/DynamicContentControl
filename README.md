@@ -11,17 +11,17 @@ Latest release comming soon.
 
 ###Getting started
 **XAML**
-```c#
+```xml
 <Window x:Class="Sturnus.Wpf.DynamicContentControl.Demo.SampleView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:sturnus="http://www.github.com/sturnus/dynamiccontentcontrol"
-        Title="SampleView" Height="300" Width="300" Background="Black" Foreground="White"
+        Title="Samples" Height="340" Width="260" Background="Black" Foreground="White"
         DataContext="{Binding SampleViewModel, Source={StaticResource ViewModelLocator}}">
 
     <Grid>
-        <sturnus:DynamicContentControl XamlText="{Binding HelloWorld}" XamlNamespaces="{StaticResource xamlNamespaces}" Margin="5"/>
+        <sturnus:DynamicContentControl XamlText="{Binding HelloWorld}" Margin="5"/>
     </Grid>
 </Window>
 ```
@@ -37,18 +37,18 @@ public string HelloWorld
 }
 ```
 
-Notice how the HelloWorld XAML string above contains the xmlns XAML namespace. The DynamicContentControl is rendered outside of its containing element (Window). You must therefore specify each XAML namespace used..
+Notice how the HelloWorld string above contains the xmlns XAML namespace. The DynamicContentControl is rendered outside of its containing element (Window). You must therefore specify each XAML namespace used.
 
 Alternatively, you can provide the DynamicContentControl with a string array of XAML namespaces
 
 **XAML**
-```c#
+```xml
 <Window x:Class="Sturnus.Wpf.DynamicContentControl.Demo.SampleView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:sturnus="http://www.github.com/sturnus/dynamiccontentcontrol"
-        Title="SampleView" Height="300" Width="300" Background="Black" Foreground="White"
+        Title="Samples" Height="340" Width="260" Background="Black" Foreground="White"
         DataContext="{Binding SampleViewModel, Source={StaticResource ViewModelLocator}}">
 
     <Window.Resources>
@@ -75,18 +75,18 @@ public string HelloWorld
 ```
 
 ###Third party controls
-When using third party controls you must specify their assembly name in the applicable XAML namespace, using the ;assembly=<name> attribute. You must do this even if the control has a defined XML namespace. This allows the DynamicContentControl to load the library into memory. 
+When using third party controls you must specify their assembly name in the applicable XAML namespace, using the ;assembly=assemblyName attribute. You must do this even if the control has a defined XML namespace. This allows the DynamicContentControl to load the library into its context and render elements depending on it.
 
 The example below uses the WPFAnimatedGIF library. For more information please visit [https://github.com/thomaslevesque/WpfAnimatedGif](https://github.com/thomaslevesque/WpfAnimatedGif)
 
 **XAML**
-```c#
+```xml
 <Window x:Class="Sturnus.Wpf.DynamicContentControl.Demo.SampleView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:sturnus="http://www.github.com/sturnus/dynamiccontentcontrol"
-        Title="Sample" Height="340" Width="260" Background="Black" Foreground="White"
+        Title="Samples" Height="340" Width="260" Background="Black" Foreground="White"
         DataContext="{Binding SampleViewModel, Source={StaticResource ViewModelLocator}}">
 
     <Window.Resources>
