@@ -1,0 +1,9 @@
+﻿<Application x:Class="Sturnus.Wpf.DynamicContentControl.Demo.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:viewmodels="clr-namespace:Sturnus.Wpf.DynamicContentControl.Demo.ViewModels"
+             StartupUri="MainView.xaml">
+    <Application.Resources>
+        <viewmodels:ViewModelLocator x:Key="ViewModelLocator" />
+    </Application.Resources>
+</Application>

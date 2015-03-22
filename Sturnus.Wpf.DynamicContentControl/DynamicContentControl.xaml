@@ -1,0 +1,7 @@
+﻿<UserControl x:Class="Sturnus.Wpf.DynamicContentControl.DynamicContentControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid x:Name="DynamicContentControlLayoutRoot">
+            
+    </Grid>
+</UserControl>
