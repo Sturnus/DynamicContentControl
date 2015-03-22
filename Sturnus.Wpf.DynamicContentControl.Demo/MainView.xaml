@@ -51,7 +51,7 @@
                         <sturnus:DynamicContentControl XamlText="{Binding Maxtrix}" XamlNamespaces="{StaticResource xamlNamespaces}" Margin="25" />
                         <TextBlock Text="(The dynamically rendered Image control is actually inside a dynamically rendered Grid control.)" TextWrapping="Wrap" Margin="5" />
                         <TextBlock TextWrapping="Wrap" Margin="5">
-                            <Run Text="This example uses the amazing WpfAnimatedGif library. For more information please visit " />
+                            <Run Text="This example uses the WpfAnimatedGif library. For more information please visit " />
                             <Hyperlink NavigateUri="https://github.com/thomaslevesque/WpfAnimatedGif" RequestNavigate="OnHyperlinkRequestNavigate">https://github.com/thomaslevesque/WpfAnimatedGif.</Hyperlink>
                         </TextBlock>
                     </StackPanel>

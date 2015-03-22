@@ -1,32 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Sturnus.Wpf.DynamicContentControl.Demo.ViewModels
 {
-public class SampleViewModel
-{
-    #region Properties
-    public string HelloWorld
+    public class SampleViewModel
     {
-        get
+        #region Properties
+        public string HelloWorld
         {
-            return @"<TextBlock xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation"" Text=""Hello World!"" />";
+            get
+            {
+                return @"<TextBlock xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation"" Text=""Hello World!"" />";
+            }
         }
-    }
 
-    public string Homer
-    {
-        get
+        public string Homer
         {
-            return @"<StackPanel HorizontalAlignment=""Left"">
-                         <TextBlock Text=""D'oh!!!"" />
-                         <Image gif:ImageBehavior.AnimatedSource=""Images/homer.gif"" gif:ImageBehavior.AnimateInDesignMode=""True"" Width=""250"" Height=""250"" />
-                     </StackPanel>";
+            get
+            {
+                return @"<StackPanel HorizontalAlignment=""Left"">
+                             <TextBlock Text=""D'oh!!!"" />
+                             <Image gif:ImageBehavior.AnimatedSource=""Images/homer.gif"" gif:ImageBehavior.AnimateInDesignMode=""True"" Width=""250"" Height=""250"" />
+                         </StackPanel>";
+            }
         }
+        #endregion
     }
-    #endregion
-}
 }

@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:sturnus="http://www.github.com/sturnus/dynamiccontentcontrol"
-        Title="Sample" Height="340" Width="260" Background="Black" Foreground="White"
+        Title="Samples" Height="340" Width="260" Background="Black" Foreground="White"
         DataContext="{Binding SampleViewModel, Source={StaticResource ViewModelLocator}}">
 
     <Window.Resources>
