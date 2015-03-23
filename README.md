@@ -2,7 +2,7 @@
 A WPF control that dynamically renders its content from a XAML string.
 
 ##Release
-Nuget package available [here](https://www.nuget.org/packages/Sturnus.Wpf.DynamicContentControl).
+NuGet package available [here](https://www.nuget.org/packages/Sturnus.Wpf.DynamicContentControl).
 
 Latest release available [here](https://github.com/Sturnus/DynamicContentControl/releases).
 
