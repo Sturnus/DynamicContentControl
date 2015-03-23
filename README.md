@@ -96,7 +96,7 @@ The example below uses the WpfAnimatedGif library. For more information please v
     <Window.Resources>
         <x:Array x:Key="xamlNamespaces" Type="sys:String">
             <sys:String>xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"</sys:String>
-            <sys:String>xmlns:gif="http://wpfanimatedgif.codeplex.com;assembly=WPFAnimatedGIF"</sys:String>
+            <sys:String>xmlns:gif="http://wpfanimatedgif.codeplex.com;assembly=WpfAnimatedGif"</sys:String>
         </x:Array>
     </Window.Resources>
     
