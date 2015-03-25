@@ -19,7 +19,6 @@ Latest release available [here](https://github.com/Sturnus/DynamicContentControl
 <Window x:Class="Sturnus.Wpf.DynamicContentControl.Demo.SampleView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:sturnus="http://www.github.com/sturnus/dynamiccontentcontrol"
         Title="Samples" Height="340" Width="260" Background="Black" Foreground="White"
         DataContext="{Binding SampleViewModel, Source={StaticResource ViewModelLocator}}">
