@@ -47,7 +47,8 @@
     <Compile Include="DynamicContentControl.xaml.cs">
       <DependentUpon>DynamicContentControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="XamlTextReader.cs" />
+    <Compile Include="XamlNamespaceReader.cs" />
+    <Compile Include="XamlReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XamlNamespace.cs" />
   </ItemGroup>

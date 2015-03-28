@@ -1,5 +1,5 @@
-﻿// <copyright file="XamlTextReader.cs">
-// Copyright (c) 2015 All Rights Reserved
+﻿// <copyright file="XamlReader.cs">
+// Copyright (c) 2015 Jeroen Spreeuwenberg
 // </copyright>
 // <author>Jeroen Spreeuwenberg</author>
 
@@ -10,11 +10,12 @@ using System.Windows.Markup;
 
 namespace Sturnus.Wpf.DynamicContentControl
 {
-    public class XamlTextReader : XamlReader
+    public class XamlReader : System.Windows.Markup.XamlReader
     {
+        #region Methods
         public static object Parse(string xamlText, IEnumerable<string> xamlNamespaces)
         {
-            return Parse(xamlText, xamlNamespaces.Select(s => new XamlNamespace(s)));
+            return Parse(xamlText, xamlNamespaces.Select(s => XamlNamespaceReader.Parse(s)));
         }
 
         public static object Parse(string xamlText, IEnumerable<XamlNamespace> xamlNamespaces)
@@ -36,5 +37,6 @@ namespace Sturnus.Wpf.DynamicContentControl
 
             return Parse(xamlText, parserContext);
         }
+        #endregion
     }
 }

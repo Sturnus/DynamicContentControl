@@ -38,11 +38,11 @@
                     </Style>
                 </TabControl.Resources>
                 <TabItem Header="Hello World">
-                    <sturnus:DynamicContentControl XamlText="{Binding HelloWorld}" FontSize="16" Margin="25" />                   
+                    <sturnus:DynamicContentControl XamlText="{Binding HelloWorld}" XamlNamespaces="{StaticResource xamlNamespaces}" FontSize="16" Margin="25" />                   
                 </TabItem>
                 <TabItem Header="Date &amp; Time">
                     <StackPanel>
-                        <sturnus:DynamicContentControl XamlText="{Binding DateAndTime}" FontSize="16" Margin="25" />
+                        <sturnus:DynamicContentControl XamlText="{Binding DateAndTime}" XamlNamespaces="{StaticResource xamlNamespaces}" FontSize="16" Margin="25" />
                         <TextBlock Text="(It is not just the control's data context that is updated every second. The entire control is actually rerendered.)" TextWrapping="Wrap" Margin="5" />
                     </StackPanel>                    
                 </TabItem>

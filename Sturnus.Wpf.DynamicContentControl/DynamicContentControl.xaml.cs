@@ -1,5 +1,5 @@
 ﻿// <copyright file="DynamicContentControl.xaml.cs">
-// Copyright (c) 2015 All Rights Reserved
+// Copyright (c) 2015 Jeroen Spreeuwenberg
 // </copyright>
 // <author>Jeroen Spreeuwenberg</author>
 
@@ -53,7 +53,7 @@ namespace Sturnus.Wpf.DynamicContentControl
 
         private UIElement ParseXamlText(string xamlText, IEnumerable<string> xamlNamespaces)
         {
-            return (UIElement)XamlTextReader.Parse(xamlText, xamlNamespaces);
+            return (UIElement)XamlReader.Parse(xamlText, xamlNamespaces);
         }
         #endregion
     }

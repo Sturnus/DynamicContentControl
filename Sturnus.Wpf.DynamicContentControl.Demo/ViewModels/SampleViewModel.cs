@@ -8,7 +8,7 @@ namespace Sturnus.Wpf.DynamicContentControl.Demo.ViewModels
         {
             get
             {
-                return @"<TextBlock xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation"" Text=""Hello World!"" />";
+                return @"<TextBlock Text=""Hello World!"" />";
             }
         }
 
